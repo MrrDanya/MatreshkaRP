@@ -264,12 +264,12 @@
         
         <div class="social-buttons">
             <!-- Замените ссылки на свои профили -->
-            <a href="https://youtube.com/ваш_канал" class="social-button youtube">YouTube</a>
-            <a href="https://tiktok.com/@ваш_аккаунт" class="social-button tiktok">TikTok</a>
-            <a href="https://t.me/ваш_аккаунт" class="social-button telegram">Telegram</a>
+            <a href="https://youtube.com/Danya_Vanichkin" class="social-button youtube">YouTube</a>
+            <a href="https://tiktok.com/@Danya_Vanichkin" class="social-button tiktok">TikTok</a>
+            <a href="https://t.me/Danya_Vanichkin" class="social-button telegram">Telegram</a>
         </div>
         
         <!-- Замените ссылку на ваш контактный Telegram -->
-        <a href="https://t.me/ваш_ник" class="contact-link">Связаться со мной в Telegram</a>
+        <a href="https://t.me/mrrDanya" class="contact-link">Связаться со мной в Telegram</a>
     </div>
 </body>
