@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -16,6 +15,12 @@
             100% { transform: translateY(0px); }
         }
         
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
         body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #e2c2ff 0%, #a18cd1 50%, #fbc2eb 100%);
@@ -26,6 +31,7 @@
             min-height: 100vh;
             margin: 0;
             overflow-x: hidden;
+            line-height: 1.6;
         }
         
         .container {
@@ -40,12 +46,14 @@
             position: relative;
             z-index: 1;
             border: 1px solid rgba(255, 255, 255, 0.3);
+            width: 95%;
         }
         
         h1 {
             color: #6a3093;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
+            font-size: clamp(24px, 5vw, 32px);
         }
         
         .game-info {
@@ -55,26 +63,30 @@
             border-radius: 15px;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.5);
+            font-size: clamp(16px, 3vw, 18px);
         }
         
         .social-buttons {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
             margin: 25px 0;
             flex-wrap: wrap;
         }
         
         .social-button {
             display: inline-block;
-            padding: 12px 25px;
+            padding: 12px 20px;
             color: white;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            min-width: 120px;
+            min-width: 100px;
+            font-size: clamp(14px, 3vw, 16px);
+            flex: 1 1 120px;
+            max-width: 150px;
         }
         
         .social-button:hover {
@@ -97,7 +109,7 @@
         .contact-link {
             display: inline-block;
             margin-top: 25px;
-            padding: 14px 30px;
+            padding: 14px 25px;
             background: linear-gradient(45deg, #8e44ad, #9b59b6);
             color: white;
             text-decoration: none;
@@ -105,6 +117,9 @@
             font-weight: bold;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            font-size: clamp(16px, 3vw, 18px);
+            width: 80%;
+            max-width: 300px;
         }
         
         .contact-link:hover {
@@ -116,16 +131,18 @@
         .play-button {
             display: inline-block;
             margin: 30px 0 20px;
-            padding: 15px 35px;
+            padding: 15px 25px;
             background: linear-gradient(45deg, #2ecc71, #27ae60);
             color: white;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
-            font-size: 18px;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             animation: float 4s ease-in-out infinite;
+            font-size: clamp(16px, 4vw, 20px);
+            width: 90%;
+            max-width: 350px;
         }
         
         .play-button:hover {
@@ -134,8 +151,8 @@
         }
         
         .avatar {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
@@ -151,7 +168,7 @@
         }
         
         .socials-title {
-            font-size: 22px;
+            font-size: clamp(18px, 4vw, 22px);
             margin: 40px 0 15px;
             color: #6a3093;
             font-weight: bold;
@@ -177,6 +194,28 @@
             position: fixed;
             opacity: 0.1;
             z-index: 0;
+            display: none;
+        }
+        
+        @media (min-width: 768px) {
+            .decoration {
+                display: block;
+            }
+            .avatar {
+                width: 150px;
+                height: 150px;
+            }
+            .social-button {
+                padding: 12px 25px;
+                min-width: 120px;
+            }
+            .play-button {
+                padding: 15px 35px;
+            }
+            .contact-link {
+                padding: 14px 30px;
+                width: auto;
+            }
         }
         
         .dec-1 {
@@ -202,7 +241,7 @@
     </style>
 </head>
 <body>
-    <!-- Декоративные элементы -->
+    <!-- Декоративные элементы (только для десктопов) -->
     <div class="decoration dec-1">✦</div>
     <div class="decoration dec-2">❀</div>
     <div class="decoration dec-3">✧</div>
@@ -214,7 +253,7 @@
         <h1>Привет! Я играю в Матрёшка RP</h1>
         
         <div class="game-info">
-            <p>Присоединяйтесь ко мне в увлекательной игре Матрёшка RP</p>
+            <p>Присоединяйтесь ко мне в увлекательной игре Матрёшка RP! Здесь я создаю уникальные ролевые сюжеты и интересные истории.</p>
         </div>
         
         <!-- Кнопка "Начать играть" -->
@@ -234,4 +273,3 @@
         <a href="https://t.me/ваш_ник" class="contact-link">Связаться со мной в Telegram</a>
     </div>
 </body>
-</html>
