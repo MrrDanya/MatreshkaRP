@@ -69,24 +69,23 @@
         .social-buttons {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 20px;
             margin: 25px 0;
             flex-wrap: wrap;
         }
         
         .social-button {
             display: inline-block;
-            padding: 12px 20px;
+            padding: 16px 30px;
             color: white;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            min-width: 100px;
-            font-size: clamp(14px, 3vw, 16px);
-            flex: 1 1 120px;
-            max-width: 150px;
+            font-size: clamp(16px, 3vw, 18px);
+            flex: 1 1 200px;
+            max-width: 250px;
         }
         
         .social-button:hover {
@@ -98,10 +97,6 @@
             background: linear-gradient(45deg, #ff0000, #cc0000);
         }
         
-        .tiktok {
-            background: linear-gradient(45deg, #000000, #333333);
-        }
-        
         .telegram {
             background: linear-gradient(45deg, #0088cc, #00aced);
         }
@@ -109,7 +104,7 @@
         .contact-link {
             display: inline-block;
             margin-top: 25px;
-            padding: 14px 25px;
+            padding: 16px 40px;
             background: linear-gradient(45deg, #8e44ad, #9b59b6);
             color: white;
             text-decoration: none;
@@ -119,7 +114,7 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             font-size: clamp(16px, 3vw, 18px);
             width: 80%;
-            max-width: 300px;
+            max-width: 350px;
         }
         
         .contact-link:hover {
@@ -131,7 +126,7 @@
         .play-button {
             display: inline-block;
             margin: 30px 0 20px;
-            padding: 15px 25px;
+            padding: 18px 40px;
             background: linear-gradient(45deg, #2ecc71, #27ae60);
             color: white;
             text-decoration: none;
@@ -140,9 +135,9 @@
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             animation: float 4s ease-in-out infinite;
-            font-size: clamp(16px, 4vw, 20px);
+            font-size: clamp(18px, 4vw, 22px);
             width: 90%;
-            max-width: 350px;
+            max-width: 400px;
         }
         
         .play-button:hover {
@@ -151,8 +146,8 @@
         }
         
         .avatar {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
@@ -168,8 +163,8 @@
         }
         
         .socials-title {
-            font-size: clamp(18px, 4vw, 22px);
-            margin: 40px 0 15px;
+            font-size: clamp(20px, 4vw, 24px);
+            margin: 40px 0 20px;
             color: #6a3093;
             font-weight: bold;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -183,8 +178,8 @@
             bottom: -8px;
             left: 50%;
             transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
+            width: 80px;
+            height: 4px;
             background: linear-gradient(90deg, #9b59b6, #e2c2ff);
             border-radius: 3px;
         }
@@ -201,19 +196,15 @@
             .decoration {
                 display: block;
             }
-            .avatar {
-                width: 150px;
-                height: 150px;
-            }
             .social-button {
-                padding: 12px 25px;
-                min-width: 120px;
+                padding: 18px 35px;
+                font-size: 18px;
             }
             .play-button {
-                padding: 15px 35px;
+                padding: 20px 45px;
             }
             .contact-link {
-                padding: 14px 30px;
+                padding: 18px 45px;
                 width: auto;
             }
         }
@@ -253,7 +244,7 @@
         <h1>Привет! Я играю в Матрёшка RP</h1>
         
         <div class="game-info">
-            <p>Присоединяйтесь ко мне в увлекательной игре Матрёшка RP! </p>
+            <p>Присоединяйтесь ко мне в увлекательной игре Матрёшка RP! Здесь я создаю уникальные ролевые сюжеты и интересные истории.</p>
         </div>
         
         <!-- Кнопка "Начать играть" -->
@@ -264,12 +255,11 @@
         
         <div class="social-buttons">
             <!-- Замените ссылки на свои профили -->
-            <a href="https://youtube.com/DanyaVanichkin" class="social-button youtube">YouTube</a>
-            <a href="https://tiktok.com/@Danya_Vanichkin" class="social-button tiktok">TikTok</a>
+            <a href="https://www.youtube.com/@DanyaVanichkin" class="social-button youtube">YouTube</a>
             <a href="https://t.me/Danya_Vanichkin" class="social-button telegram">Telegram</a>
         </div>
         
         <!-- Замените ссылку на ваш контактный Telegram -->
-        <a href="https://t.me/mrrDanya" class="contact-link">Связаться со мной в Telegram</a>
+        <a href="https://t.me/MrrDanya" class="contact-link">Связаться со мной в Telegram</a>
     </div>
 </body>
