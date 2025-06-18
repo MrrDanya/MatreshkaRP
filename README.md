@@ -253,7 +253,7 @@
         <h1>Привет! Я играю в Матрёшка RP</h1>
         
         <div class="game-info">
-            <p>Присоединяйтесь ко мне в увлекательной игре Матрёшка RP! Здесь я создаю уникальные ролевые сюжеты и интересные истории.</p>
+            <p>Присоединяйтесь ко мне в увлекательной игре Матрёшка RP! </p>
         </div>
         
         <!-- Кнопка "Начать играть" -->
@@ -264,7 +264,7 @@
         
         <div class="social-buttons">
             <!-- Замените ссылки на свои профили -->
-            <a href="https://youtube.com/Danya_Vanichkin" class="social-button youtube">YouTube</a>
+            <a href="https://youtube.com/DanyaVanichkin" class="social-button youtube">YouTube</a>
             <a href="https://tiktok.com/@Danya_Vanichkin" class="social-button tiktok">TikTok</a>
             <a href="https://t.me/Danya_Vanichkin" class="social-button telegram">Telegram</a>
         </div>
