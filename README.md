@@ -248,7 +248,7 @@
         </div>
         
         <!-- Кнопка "Начать играть" -->
-        <a href="https://ваша_ссылка_на_игру" class="play-button">Начать играть со мной в Матрёшка RP</a>
+        <a href="https://matrp.cc/CwTb6x" class="play-button">Начать играть со мной в Матрёшка RP</a>
         
         <!-- Подпись "Мои соцсети" -->
         <div class="socials-title">Мои соцсети</div>
